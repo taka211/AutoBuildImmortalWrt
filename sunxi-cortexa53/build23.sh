@@ -44,11 +44,21 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 #23.05
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
+
+# FTP服务器
+PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
+# 静态文件服务器dufs(推荐)
+PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
+# 局域网SMB共享
+PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+# FTP服务器
+PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn""
+
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
