@@ -57,7 +57,7 @@ PACKAGES="$PACKAGES luci-i18n-dufs-zh-cn"
 # 局域网SMB共享
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # FTP服务器
-PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn""
+PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 
 # ======== shell/custom-packages.sh =======
 # 合并imm仓库以外的第三方插件
